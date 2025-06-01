@@ -3,33 +3,6 @@
   <head>
     <title>Wood styled tables</title>
     <style>
-      body{
-        margin:0;
-        font-family:'Segoe UI', sans-serif;
-        background:linear-gradient(to bottom, lightgreen, darkseagreen, green);
-        padding:40px;
-      }
-      .nature-table{
-        width:80%;
-        margin:auto;
-        border-collapse:collapse;
-        box-shadow:0 8px 16px rgba (0,0,0,0.2);
-        border-radius:12px;
-        overflow:hidden;
-      }
-    .nature-table thead{
-      background-color:saddlebrown;
-      color:ivory;
-    }
-    .nature-table tbody tr: nth-child(even) {
-      background-color:beige;
-    }
-      .nature-table tbody tr: nth-child(odd){
-        background-color:wheat;
-      }
-      .nature-table tbody tr:hover {
-        background-color: burlywood;
-      }
       html,body{
         height:100%;
         margin:0;
@@ -60,14 +33,40 @@
         padding: 16px;
         text-align:left;
       }
-    
-    </style>
+      .nature-table tbody tr: nth-child(even) {
+      background-color:beige;
+    }
+      .nature-table tbody tr: nth-child(odd){
+        background-color:wheat;
+      }
+       .nature-table tbody tr:hover {
+        background-color: burlywood;
+      }
+         body{
+        margin:0;
+        font-family:'Segoe UI', sans-serif;
+        background:linear-gradient(to bottom, lightgreen, darkseagreen, green);
+        padding:40px;
+      }
+      .nature-table{
+        width:80%;
+        margin:auto;
+        border-collapse:collapse;
+        box-shadow:0 8px 16px rgba (0,0,0,0.2);
+        border-radius:12px;
+        overflow:hidden;
+      }
+    .nature-table thead{
+      background-color:saddlebrown;
+      color:ivory;
+    }
+     </style>
     
   </head>
   <body>
     <div class="title"> Forest- Themed Teak Table </div>
     <table class="nature-table">
-      <thead> <tr> <th> Character</th></tr></thead>
+      <thead> <tr> <th> Character</th><th>Speciality</th></tr></thead>
       <tbody>
         <tr> <td> Dr. A.P.J Abdul kalam</td><td> Missile Man of India</td></tr>
         <tr> <td> Dr. B.R Ambedkar</td><td> Father Of Indian Constitution</td></tr>
